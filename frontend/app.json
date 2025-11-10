@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "GuildRunner",
+    "slug": "guildrunner",
+    "scheme": "guildrunner",
+    "android": {
+      "package": "com.guildrunner",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ],
+          "data": [
+            {
+              "scheme": "guildrunner",
+              "host": "auth-callback"
+            }
+          ]
+        }
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed45e980-69cb-4ef8-aa07-95742902737a"
+      }
+    }
+  }
+}
